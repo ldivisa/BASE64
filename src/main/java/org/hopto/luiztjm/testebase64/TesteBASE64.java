@@ -15,7 +15,7 @@ import java.util.Base64;
 public class TesteBASE64 {
 
     public static void main(String[] args)  {
-        String mensagem = "Hello world 10";
+        String mensagem = "Hello world 25122025";
         byte[] msgCrypto = Base64.getEncoder().encode(mensagem.getBytes());
         System.out.println(Arrays.toString(msgCrypto));
         byte[] msgDecrypto = Base64.getDecoder().decode(msgCrypto);
